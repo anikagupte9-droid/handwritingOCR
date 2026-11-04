@@ -1,0 +1,19 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Large model directories
+model_fp16/
+model_int8/
+onnx_fp32/
+onnx_fp16/
+onnx_int8/
+
+# Model weights
+pytorch_model.bin
+*.onnx
+
+# Temporary files
+*.log
+.DS_Store
