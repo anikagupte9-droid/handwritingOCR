@@ -3,17 +3,37 @@
 __pycache__/
 *.py[cod]
 
-# Large model directories
+# Python model directories
 model_fp16/
 model_int8/
 onnx_fp32/
 onnx_fp16/
 onnx_int8/
 
-# Model weights
+# Large model weights
 pytorch_model.bin
 *.onnx
 
 # Temporary files
 *.log
 .DS_Store
+
+# Android Studio
+.gradle/
+.idea/
+.kotlin/
+local.properties
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android generated files
+*.apk
+*.aab
+*.iml
+
+# Signing credentials
+*.jks
+*.keystore
+key.properties
